@@ -1,0 +1,160 @@
+
+
+@media screen and (max-width: 375px){
+    .deck {
+        width: 85%;
+        min-height: 350px;
+        padding: 10px;
+    }
+
+    .deck .card {
+        width: 60px;
+        height: 60px;
+    }
+
+    .deck .card.show {
+        font-size: 20px;
+    }
+
+    .modal {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        padding-top: 150px;
+    }
+
+    .m-content {
+        margin-top: 70px;
+        margin: 0 auto;
+        width: 80%;
+        padding: 30px;
+    }
+
+    .m-content h2 {
+        font-size: 18px;
+    }
+
+    .m-content p {
+        font-size: 14px;
+    }
+
+    .play-again {
+        padding: 4px 7px 4px 7px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 375px){
+    .deck {
+        width: 85%;
+        min-height: 350px;
+        padding: 15px;
+    }
+
+    .deck .card {
+        width: 60px;
+        height: 60px;
+    }
+
+}    
+
+
+
+
+@media screen and (min-width: 400px){
+
+    .deck .card {
+        width: 70px;
+        height: 70px;
+    }
+
+}    
+
+
+
+
+
+@media screen and (min-width: 460px){
+
+    .deck .card {
+        width: 75px;
+        height: 75px;
+    }
+
+}    
+
+
+
+
+@media screen and (min-width: 490px){
+    .deck {
+        width: 85%;
+        min-height: 400px;
+        padding: 20px;
+    }
+    .deck .card {
+        width: 80px;
+        height: 80px;
+    }
+
+}    
+
+
+
+
+
+@media screen and (min-width: 525px){
+    .deck {
+        width: 85%;
+        min-height: 450px;
+        padding: 20px;
+    }
+    .deck .card {
+        width: 95px;
+        height: 95px;
+    }
+
+}    
+
+
+
+
+@media screen and (min-width: 620px){
+    .deck {
+        width: 540px;
+        min-height: 560px;
+        background: linear-gradient(160deg, #ffd67f 0%, #cc8080 100%);
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 2em;
+    }
+
+    .deck .card {
+        height: 110px;
+        width: 110px;
+        background: #423924;
+        font-size: 0;
+        color: #ffffff;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+        transform-style: preserve-3d;
+        transition: 0.5s ease;
+
+    }
+
+
+
+}

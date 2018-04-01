@@ -37,6 +37,8 @@ h1 {
  * Styles for the deck of cards
  */
 
+ 
+
 .deck {
     width: 540px;
     min-height: 560px;
@@ -226,6 +228,7 @@ h1 {
 }
 
 .starsRes {
+    color: #ffd928;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -236,4 +239,5 @@ h1 {
     list-style-type: none;
     display: flex;
 }
+
 
